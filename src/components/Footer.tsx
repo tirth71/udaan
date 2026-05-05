@@ -38,10 +38,10 @@ const Footer = () => {
                 <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-secondary to-accent group-hover:opacity-90 transition-opacity duration-300">Udaan</span>
               </Link>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-                Your trusted partner in international trade, connecting markets globally with 
+                Your trusted partner in international trade, connecting markets globally with
                 excellence in export services and reliable logistics solutions.
               </p>
-              
+
               {/* Contact Info */}
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
@@ -115,24 +115,24 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-primary-foreground/80 text-sm">
-              © 2025 Udaan. All rights reserved.
+              © 2026 Udaan. All rights reserved.
 
-                     </div>
-              {/* Middle */}
-    <div className="text-primary-foreground/80 text-sm md:w-1/3 text-center">
-      Developed by{" "}
-      <a
-        href="https://www.linkedin.com/in/tirth-savaliya-115187252"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline hover:text-accent"
-      >
-        Tirthsavaliya
-      </a>
-    </div>
-        
-     
-            
+            </div>
+            {/* Middle */}
+            <div className="text-primary-foreground/80 text-sm md:w-1/3 text-center">
+              Developed by{" "}
+              <a
+                href="https://www.linkedin.com/in/tirth-savaliya-115187252"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-accent"
+              >
+                Tirthsavaliya
+              </a>
+            </div>
+
+
+
             {/* Social Links */}
             <div className="flex space-x-4">
               <a
@@ -153,7 +153,7 @@ const Footer = () => {
       </div>
       {/* Floating "Developed by" Section */}
       <div>
-       
+
       </div>
     </footer>
   );
