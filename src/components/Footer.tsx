@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Ship, Phone, Mail, MapPin, Linkedin, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo-removebg-preview.png";
 
 const Footer = () => {
   const footerSections = [
@@ -33,9 +34,12 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <Link to="/" className="flex items-center space-x-2 mb-6 group">
-                <Ship className="h-8 w-8 text-accent animate-float group-hover:animate-float-delayed transition-all duration-300" />
-                <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-secondary to-accent group-hover:opacity-90 transition-opacity duration-300">Udaan</span>
+              <Link to="/" className="flex items-center mb-6 group">
+                <img
+                  src={logo}
+                  alt="Udaan Export Logo"
+                  className="h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                />
               </Link>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
                 Your trusted partner in international trade, connecting markets globally with
@@ -54,7 +58,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-accent" />
-                  <span className="text-primary-foreground/90">Surat , Gujrat , India</span>
+                  <span className="text-primary-foreground/90">Surat, Gujarat, India</span>
                 </div>
               </div>
             </div>
@@ -116,7 +120,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-primary-foreground/80 text-sm">
               © 2026 Udaan. All rights reserved.
-
             </div>
             {/* Middle */}
             <div className="text-primary-foreground/80 text-sm md:w-1/3 text-center">
@@ -130,8 +133,6 @@ const Footer = () => {
                 Tirthsavaliya
               </a>
             </div>
-
-
 
             {/* Social Links */}
             <div className="flex space-x-4">
@@ -150,10 +151,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* Floating "Developed by" Section */}
-      <div>
-
       </div>
     </footer>
   );
