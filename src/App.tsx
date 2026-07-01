@@ -10,6 +10,7 @@ import ProductDetails from "./pages/ProductDetails";
 import ScrollToTop from "./components/ScrollToTop"; // ✅ Add this import
 import ContactUs from "./components/ContactUs";
 import Products from "./pages/Products";
+import About from "./components/About";
 
 const queryClient = new QueryClient();
 
@@ -22,9 +23,10 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/services/:slug" element={<ServiceDetails />} />
-          <Route path="/services/:slug/:product" element={<ProductDetails />} />
+          {/* <Route path="/services/:slug" element={<ServiceDetails />} />
+          <Route path="/services/:slug/:product" element={<ProductDetails />} /> */}
           <Route path="*" element={<NotFound />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/products" element={<Products />} />
         </Routes>

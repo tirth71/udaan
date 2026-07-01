@@ -9,9 +9,9 @@ const Footer = () => {
       title: "Quick Links",
       links: [
         { name: "Home", href: "/", isRoute: true },
-        { name: "About Us", href: "/#about", isRoute: false },
+        { name: "About Us", href: "#about", isRoute: true },
         { name: "Products", href: "/products", isRoute: true },
-        { name: "Contact", href: "/#contact", isRoute: false },
+        { name: "Contact", href: "/contactus", isRoute: true },
       ]
     },
     {
