@@ -9,21 +9,21 @@ const Footer = () => {
       title: "Quick Links",
       links: [
         { name: "Home", href: "/", isRoute: true },
-        { name: "About Us", href: "#about", isRoute: true },
+        { name: "About Us", href: "/about", isRoute: true },
         { name: "Products", href: "/products", isRoute: true },
         { name: "Contact", href: "/contactus", isRoute: true },
       ]
     },
-    {
-      title: "Services",
-      links: [
-        { name: "All Services", href: "/#services", isRoute: false },
-        { name: "Grains & Pluses & Millets", href: "/services/grains", isRoute: true },
-        { name: "Dehydrated Products", href: "/services/dehydrated-products", isRoute: true },
-        { name: "Fruits & Vegetable", href: "/services/fruits-vegetables", isRoute: true },
-        { name: "Spices", href: "/services/spices", isRoute: true },
-      ]
-    }
+    // {
+    //   title: "Services",
+    //   links: [
+    //     { name: "All Services", href: "/#services", isRoute: false },
+    //     { name: "Grains & Pluses & Millets", href: "/services/grains", isRoute: true },
+    //     { name: "Dehydrated Products", href: "/services/dehydrated-products", isRoute: true },
+    //     { name: "Fruits & Vegetable", href: "/services/fruits-vegetables", isRoute: true },
+    //     { name: "Spices", href: "/services/spices", isRoute: true },
+    //   ]
+    // }
   ];
 
   return (
